@@ -1,4 +1,4 @@
-#ESFF1 - Environmental Specific Force Field version 1
+# ESFF1 - Environmental Specific Force Field version 1
 
 Recently, we developed the environmental specific force field ESFF1 based 
 on AMBER ff14SB with dihedral energy map correction (CMAP) method 
@@ -7,7 +7,7 @@ This force fields need to transplant CHARMM energy function to AMBER's,
 which can be realized by the "Trans_FF_IDPs.pl".
 
 
-##Simple Usages:
+## Simple Usages:
 1. Use Amber tLEaP or xLEaP to generate the normal PRMTOP file.
    Note: Please be sure to use ff14SB force field (source leaprc.ff14SB), 
 	since the development is based on ff14SB.
